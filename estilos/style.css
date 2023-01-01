@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
     height: 100vh;
     width: 100vw;
 }
@@ -40,6 +40,8 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
+    transition: width 1.3s, height 1.3s; /*Para fazer animação de aumentar e diminuir a formulario*/
+    transition-timing-function: ease; /*Para suavizar a movimentação da animação*/
 }
 
 section#login > div#imagem {
@@ -55,5 +57,5 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
-    
+
 }
