@@ -30,16 +30,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /*Tudo o que estiver fora da bordar, vai ficar escondido*/
 
 
     background-color: white;
-    width: 410px;
-    height: 515px;
+    width: 60vw;
+    height: 60vh;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
+    transform: translate(-50%, -50%);
     transition: width 1.3s, height 1.3s; /*Para fazer animação de aumentar e diminuir a formulario*/
     transition-timing-function: ease; /*Para suavizar a movimentação da animação*/
 }
@@ -63,18 +63,20 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 10px ;
 }
 
 div#formulario > p {
-    font-size: 1em;
+    font-size: 0,8em;
 }
 
 form > div.campo {
-    background-color: #5f2c82;
+    background-color: #2c5482;
+    border: 2px solid #203f616b;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
@@ -86,20 +88,29 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-    background-color: black;
-    font-size: 2em;
+    font-size: 1,9em;
     width: 40px;
     padding: 5px;
 }
 
 div.campo > input {
-    background-color: #4aa7a3;
+    background-color: #ffffff;
     font-size: 1em;
+    width: 83%;
     height: 100%;
     border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-4px);
 
 }
 
+/*
+div.campo > input:focus-within {
+    background-color: white;
+    border: 0px solid white;
+}
+*/
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -108,15 +119,13 @@ form > input[type=submit] {
     background-color: #49a09d;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 
 }
 
 form > input[type=submit]:hover {
-    background-color: white;
-    color: #49a09d;
-    border: 1px solid #49a09d;
+    background-color: #2d6462;
 }
 
 form > a.botao {
@@ -130,7 +139,7 @@ form > a.botao {
     background-color: white;
     color: #1f4241;
     border: 1px solid #49a09d;
-    border-radius: 10px;
+    border-radius: 7px;
     text-decoration: none;
 
 }

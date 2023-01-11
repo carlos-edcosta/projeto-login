@@ -16,7 +16,8 @@ Grandes: acima de 1200px
     }
 
     section#login {
-        width: 85vw;
+        width: 80vw;
+        height: 35vh;
 
     }
 
@@ -41,7 +42,7 @@ Grandes: acima de 1200px
 
     section#login {
         width: 70vw;
-        height: 75vh;
+        height: 40vh;
     }
 
     section#login > div#imagem {
