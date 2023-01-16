@@ -32,6 +32,11 @@ Grandes: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        width: 88%;
+        height: 100%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -64,4 +69,15 @@ Grandes: acima de 1200px
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    div.campo {
+        width: 100%;
+    }
+
+
+    div.campo > input {
+        width: 86%;
+        height: 100%;
+    }
 }
+    
